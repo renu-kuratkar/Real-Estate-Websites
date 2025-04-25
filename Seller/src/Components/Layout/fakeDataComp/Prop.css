@@ -1,0 +1,12 @@
+.property-card {
+    width: 200px;
+    height: 400px;
+    border: 1px solid #e5e5e5;
+
+  }
+  
+  .property-list {
+    overflow-x: auto;
+    scroll-behavior: smooth;
+  }
+  

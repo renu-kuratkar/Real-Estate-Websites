@@ -1,0 +1,102 @@
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+
+.caption {
+  position: absolute;
+  top: 50%;
+  left: 8rem;
+  transform: translateY(-50%);
+  z-index: 9;
+  opacity: 0;
+  transition: 500ms ease opacity, 500ms ease transform;
+}
+
+.current-caption {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.caption-heading h1 {
+  font-size: 4rem;
+  margin-bottom: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+}
+
+.caption-subhead span {
+  font-size: 1rem;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  margin-bottom: 2.5rem;
+  display: block;
+}
+
+a.btn {
+  color: #333;
+  font-size: 0.8rem;
+  background-color: white;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: background-color 250ms ease-in, color 500ms ease-in;
+}
+
+a.btn:hover {
+  background-color: black;
+  color: white;
+}
+
+/* Slider Section */
+.left-col {
+  width: 100%;
+  height: calc(100% - 4rem);
+  position: relative;
+  overflow: hidden;
+}
+
+.slide {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  opacity: 0;
+  transition: 1s ease-in-out;
+}
+
+.slide.current {
+  opacity: 1;
+  transform: scale(1.1);
+  z-index: 2;
+}
+
+.slide.previous {
+  transform: translateY(-50%);
+}
+
+.slide.next {
+  transform: translateY(100%);
+}
+
+/* Navigation */
+.nav {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  z-index: 10;
+}
+
+.nav a {
+  color: white;
+  font-size: 3rem;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+  text-decoration: none;
+}

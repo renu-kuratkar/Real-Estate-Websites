@@ -1,0 +1,96 @@
+.sidebar {
+  z-index: 50;
+  transform: translateX(100%);
+  transition: transform 0.3s ease-in-out;
+}
+
+.sidebar.translate-x-0 {
+  transform: translateX(0);
+}
+
+/* Sidebar Header */
+.sidebar-header {
+  background-color: #f9f9f9;
+  padding: 12px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+/* Post Property Section */
+.post-property {
+  background-color: #fff;
+  padding: 12px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+/* Free Badge */
+.free-badge {
+  background-color: #007bff;
+  color: #fff;
+  padding: 2px 6px;
+  font-size: 10px;
+  border-radius: 4px;
+}
+
+/* Menu Section */
+.menu {
+  padding: 10px 12px;
+}
+
+/* Menu Title */
+.menu-title {
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 6px;
+}
+
+/* Menu Items */
+.menu-item {
+  padding: 2px 4px;
+  font-size: 14px;
+  color: #333;
+  border-radius: 5px;
+  transition: background-color 0.2s;
+  cursor: pointer;
+}
+
+.menu-item:hover {
+  background-color: #f3f3f3;
+}
+
+/* Active Menu Item */
+.menu-item.active {
+  background-color: #f5f5f5;
+  color: #333;
+  font-weight: bold;
+}
+
+/* Submenu Items */
+.submenu {
+  margin-top: 5px;
+}
+
+.submenu-item {
+  display: block;
+  padding: 6px 12px;
+  font-size: 13px;
+  color: #666;
+  text-decoration: none;
+}
+
+.submenu-item:hover {
+  background-color: #f0f0f0;
+}
+
+/* Badge for New Items */
+.badge-new {
+  background-color: #007bff;
+  color: #fff;
+  font-size: 10px;
+  padding: 2px 5px;
+  border-radius: 5px;
+}
+
+/* Overlay */
+.overlay {
+  z-index: 40;
+}

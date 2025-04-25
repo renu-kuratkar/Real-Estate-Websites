@@ -1,0 +1,37 @@
+.header {
+  background-color: rgb(111, 39, 43); /* Custom background color */
+  padding: 10px 20px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.search-input {
+  width: 100%;
+  max-width: 600px;
+  
+  padding: 8px 12px;
+  border-radius: 5px;
+}
+
+.post-property-btn {
+  background-color: #fff;
+  color: black;
+  border-radius: 5px;
+  padding: 6px 10px;
+  font-weight: 600;
+}
+
+.free-badge {
+  background-color: #28a745;
+  color: #fff;
+  padding: 1px 5px;
+  border-radius: 5px;
+  font-size: 10px;
+}
+
+.menu-btn {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
