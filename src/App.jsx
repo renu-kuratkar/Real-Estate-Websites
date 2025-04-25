@@ -21,7 +21,8 @@ import Newnavbar from "./components/Newnavbar";
 import NewMiddleNavbar from "./components/NewMiddleNavbar";
 import SwiperComponent from "./components/ui/SwiperComponent";
 import TextParallaxContentExample from "./components/TextParallaxContentExample";
-import Seller from "./components/seller";
+import Seller from "./components/Seller";
+
 import BuyerRegistration from "../Seller/src/Components/Layout/BuyerRegistration/BuyerRegistration";
 import AppRouter from "./Routes/AppRouter";
 import SellerDashboard from "./components/SellerDashboard";
